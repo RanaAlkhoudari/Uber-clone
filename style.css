@@ -1,0 +1,1392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(66, 64, 64);
+}
+
+/* styling the header */
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    align-items: center;
+}
+
+.left-list a, .right-list a, ul i{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left-list{
+    padding-left: 60px;
+}
+
+.right-list{
+    padding-right: 70px;
+}
+
+nav li{
+    padding: 7px 14px;
+    border-radius: 30px;
+    font-size: 15px;  
+}
+
+nav button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+nav li:hover{
+    background-color:rgb(54, 52, 52);
+}
+
+nav li:hover button{
+    background-color:rgb(54, 52, 52);
+}
+
+.nav-item9{
+    color: black;
+    background-color: white;
+}
+
+.nav-item9 button{
+    color: black;
+    background-color: white;
+}
+
+.nav-item9:hover{
+    background-color: rgb(233, 231, 231);
+
+}
+
+.nav-item9:hover button{
+    background-color: rgb(233, 231, 231);
+}
+
+.nav-item1{
+    font-size: 20px;
+}
+
+.nav-item1:hover{
+    background-color: black;
+}
+
+.nav-item10{
+    display: none;
+}
+
+nav li i{
+    padding: 0 4px;
+}
+
+/* styling the main-section */
+
+.main-section{
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_2398,h_1520/v1578357180/assets/69/908bc0-7167-40d0-b046-af52170801f5/original/Product-Masthead-Desktop_2.jpg");
+    width: 100%;
+    height: 48.75rem;
+    background-size: 100% 100%;
+}
+
+.main-images{
+    background-color: white;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    top: 75px;
+}
+
+.main-images ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.main-images img{
+    width: 25px;
+    height: 25px;
+}
+
+.main-images li{
+    padding: 10px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.main-images li:hover a{
+    opacity: .6;
+}
+
+.main-images li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 10px;
+}
+
+.main-card{
+    width: 40%;
+    position: relative;
+    top: 75px;
+    left: 10%;
+    border-top: 1px solid rgb(235, 231, 231);
+    background-color: white;
+    padding: 40px;
+}
+
+.main-card h2{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.main-card p{
+    padding: 25px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-card button{
+    color: white;
+    background-color: black;
+    padding: 16px;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-card button:hover{
+    background-color: rgb(36, 35, 35);
+}
+
+.main-card a, .photo-section a, .card-body a, .wrapper a{
+    display: block;
+    color: black;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    width: 67%;
+    text-decoration: none;
+    background-image: linear-gradient( transparent calc(100% - 1px), #000000 1px ), linear-gradient( transparent calc(100% - 1px), #CBCBCB 1px );
+    background-size: 0% 9px, 100% 6px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+
+.main-card a:hover, .photo-section a:hover, .card-body a:hover, .wrapper a:hover{
+    background-image: linear-gradient( to right, #000000);
+    background-size: 100% 6px, 100% 6px;
+    transition: all .5s linear;
+}
+
+
+/* styling the photo-section */
+
+.photo-section{
+    background-image:url("https://www.uber-assets.com/image/upload/v1556927537/assets/e4/ade93c-0b7b-4990-bda4-afef96793277/original/Modalities_banner_home.jpg") ;
+    width: 100%;
+    height: 41.875rem;
+    background-size: 100% 100%;
+}
+
+.photo-section h2{
+    width: 40%;
+    padding: 100px 0 40px 140px;
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: 500;
+    color:rgb(54, 52, 52);
+}
+
+.photo-section a{
+    margin-left: 140px;
+    padding: 5px;
+    width: 12rem
+}
+
+/* styling the cards-section */
+
+.cards-section{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.cards-section h2{
+    padding: 70px 0 30px 20px;
+    font-size: 35px;
+}
+
+.cards-section p{
+    padding: 0px 0 25px 20px;
+
+}
+.container{
+   display: flex;
+   justify-content: center;
+}
+
+.card-body{
+    padding: 20px;
+    flex: 33%;
+    height: auto;
+}
+
+.card-body img{
+    max-width: 100%;
+    width: 22rem;
+    height: 16rem;
+}
+
+.card-body h3{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 450;
+}
+
+.card-body p{
+    padding: 10px 0 30px 0;
+    line-height: 22px;
+    color:rgb(54, 52, 52)
+}
+
+.card-body a{
+    padding: 5px;
+    font-size: 16px;
+    width: 7.8rem;
+}
+
+/* styling the safety-section */
+
+.safety-section{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 12.5rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper h2{
+    padding: 70px 50px 30px 0px;
+    font-size: 35px;
+    line-height: 50px;
+    width: 25rem;
+}
+
+.wrapper p{
+    line-height: 25px;
+    padding-bottom: 20px;
+    width: 75%;
+}
+
+.wrapper a{
+    font-size: 16px;
+    width: 18.2rem;
+}
+
+.wrapper a:nth-child(4){
+    width: 14.8rem;
+}
+
+.wrapper img{
+    display: block;
+    width: 31.25rem;
+    height: auto;
+    margin-top: 9.375rem;
+}
+
+/* styling the cards-section */
+
+.about-us{
+    width: 75%;
+}
+
+.card-body .card-img{
+    width:25px;
+    height: 25px;
+}
+
+/* styling the footer */
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 100px 0 0 100px;
+    margin-top: 60px;
+    padding-bottom: 70px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-head a{
+    display: block;
+}
+
+.footer-head a:first-child{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.footer-head a:nth-child(2){
+    font-size: 18px;
+    padding-bottom: 40px;
+    width: 15%;
+}
+
+.footer-head a:nth-child(2):hover{
+    border-bottom: 1px solid white ;
+}
+
+/*--------------*/
+
+.footer-body{
+    display: flex;
+    width: 75%;
+    padding-top: 30px;
+}
+
+.footer-body a:hover{
+   opacity: .6;
+}
+
+.footer-column{
+    flex: 1;
+}
+
+.footer-column h4{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-body ul{
+    list-style: none;
+}
+
+.footer-body li{
+    padding: 10px 0
+}
+
+
+/*--------------*/
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.contact-body{
+    display: flex;
+    flex: 70%
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media a{
+    padding: 5px;
+    flex: 1;
+    margin-right: 25px;
+}
+
+.social-media a:hover{
+    background-color: grey;
+}
+
+.address{
+    padding-left: 30px
+}
+
+.address a{
+    padding: 5px;
+}
+
+.address i{
+    padding: 8px
+}
+
+.address a:hover{
+    background-color: rgb(78, 77, 77);
+}
+
+.contact-app{
+    display: flex;
+    flex: 30%
+}
+
+.contact-app a{
+    padding: 0 10px
+}
+
+.contact-app img{
+    width: 8rem;
+    height: 100%;
+    display: block;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: grey;
+    margin-top: 50px;
+}
+
+.footer-text p{
+    flex: 70%;
+}
+
+.footer-text ul{
+    list-style: none;
+    display: flex;
+    flex: 30%
+}
+
+.footer-text a{
+    padding: 0 10px;
+    color: grey;
+    cursor: pointer;
+}
+
+.footer-text a:hover{
+    opacity: .6;
+}
+
+/* Responsive design */
+
+/* styling smaller than 600px */
+
+@media (max-width: 599px){
+
+     /* styling the header */
+
+     .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7, .nav-item8 a{
+        display: none;
+    }
+
+    .nav-item10{
+        display: block;
+    }
+
+    .left-list{
+        padding-left: 10px;
+    }
+    
+    .right-list{
+        padding-right: 10px;
+    }
+
+     /* styling the main-section */
+
+     .main-section{
+        height: 50rem;
+        background-size: 62.5rem 31.25rem;
+        background-position: right bottom;
+    }
+
+    .main-images{
+        width: 100%;
+        top: 0;
+        overflow-x: scroll;
+    }
+
+    .main-images::-webkit-scrollbar{
+        /* to hide the scrolbar */
+
+        display: none;
+      }
+
+    .main-images ul{
+        justify-content: flex-start;
+        padding: 7px 0;
+    }
+
+    .main-images li{
+        padding: 13px 12px;
+        font-size: 14px;
+    }
+
+    .main-images a{
+        width: 78px;
+    }
+
+    .main-images img{
+        width: 17px;
+        height: 17px;
+    }
+
+    .main-card{
+        width: 100%;
+        top: 0px;
+        left: 0%;
+        padding: 30px;
+    }
+
+    .main-card h2{
+        font-size: 29px;
+        font-weight: 500;
+    }
+    
+    .main-card p{
+        padding: 25px 0;
+        font-size: 16px;
+    }
+
+    .main-card button{
+        padding: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .main-card a{
+        display: block;
+        width: 16.875rem;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    /* styling the photo-section */
+
+    .photo-section{
+        background-image:url("https://www.uber-assets.com/image/upload/v1557179373/assets/1e/106eb3-58af-445d-98dd-41403530fd36/original/modalities_3x2.jpg") ;
+        height: 33rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo-section h2{
+        width: 100%;
+        padding: 60px 0px 30px 30px;
+        font-size: 27px;
+        margin: auto;
+    }
+
+    .photo-section a{
+        margin-left: 30px;
+        padding: 5px;
+        font-size: 16px;
+        width: 10.8rem;
+    }
+
+    /* styling the cards-section */
+
+    .cards-section{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .cards-section h2{
+        padding: 20px 0 30px 20px;
+        font-size: 30px;
+    }
+    
+    .cards-section p{
+        padding: 0px 0 25px 20px;
+    
+    }
+    .container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+  
+    .card-body{
+       flex: 100%;
+    }
+
+    .card-body img{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .card-body p{
+        padding: 10px 0 30px 0;
+        line-height: 22px;
+    }  
+
+    /* styling the safety-section */
+
+    .safety-section{
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+    
+    .wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .wrapper img{
+        margin-top: 0;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .wrapper h2{
+        padding: 70px 0px 30px 30px;
+        font-size: 30px;
+        line-height: 50px;
+        width: 100%;
+    }
+    
+    .wrapper p{
+        padding: 0px 0px 30px 30px;
+        width: 85%;
+    }
+
+    .wrapper a{
+        display: block;
+        margin-left: 30px;
+        width: 18.75rem;
+    }
+
+    .wrapper a:nth-child(4){
+        width: 15rem;
+    }
+
+    /* styling the footer */
+
+    footer{
+        padding: 100px 0 70px 30px;
+    }
+    
+    .footer-head a:first-child{
+        font-size: 20px;
+    }
+    
+    .footer-head a:nth-child(2){
+        font-size: 15px;
+        padding-bottom: 0px;
+        width: 9rem;
+    }
+
+     /*--------------*/
+
+     .footer-body{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    .footer-column{
+        flex: 100%;
+        padding: 20px 0;
+    }
+    
+    .footer-column h4{
+        font-size: 17px;
+    }
+
+    .footer-body li{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+     /*--------------*/
+
+     .contact{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .contact-body{
+        flex-direction: column;
+    }
+
+    .contact-column{
+        padding: 10px
+    }
+
+    .social-media{
+        padding-left: 0px;
+    }
+    
+    .address{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .address a{
+        display: block;
+        font-size: 14px;
+    }
+
+    .address a:first-child{
+        width: 130px;
+    }
+
+    .address a:nth-child(2){
+        width: 190px;
+    }
+    
+    .address i{
+        padding: 8px 12px 0 0
+    }
+
+    .contact-app{
+        margin-top: 20px;
+    }
+
+    .contact-app a{
+        padding: 0 10px 10px 0
+    }
+
+    .contact-app img{
+        max-width: 100%;
+        width: 120px;
+        height: auto;
+    }
+
+    .footer-text{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .footer-text ul{
+        margin-top: 80px;
+    }
+
+    .footer-text a{
+        padding: 0 5px 0 0;
+    }
+    
+}
+
+
+/* styling between 600px and 778px */
+
+@media (min-width: 600px) and (max-width: 778px){
+
+    /* styling the header */
+
+    .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7, .nav-item8 a{
+        display: none;
+    }
+
+    .nav-item10{
+        display: block;
+    }
+
+    .left-list{
+        padding-left: 10px;
+    }
+    
+    .right-list{
+        padding-right: 10px;
+    }
+
+    /* styling the main-section */
+
+    .main-section{
+        height: 50rem;
+        background-size: 62.5rem 31.25rem;
+        background-position: right bottom;
+    }
+
+    .main-images{
+        width: 100%;
+        top: 0;
+        overflow-x: scroll;
+    }
+
+    .main-images::-webkit-scrollbar{
+        /* to hide the scrolbar */
+
+        display: none;
+      }
+
+    .main-images ul{
+        justify-content: flex-start;
+        padding: 7px 0;
+    }
+
+    .main-images li{
+        padding: 13px 12px;
+        font-size: 14px;
+    }
+
+    .main-images a{
+        width: 78px;
+    }
+
+    .main-images img{
+        width: 17px;
+        height: 17px;
+    }
+
+    .main-card{
+        width: 100%;
+        top: 0px;
+        left: 0%;
+        padding: 30px;
+    }
+
+    .main-card h2{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+    .main-card p{
+        padding: 25px 0;
+        font-size: 16px;
+    }
+
+    .main-card button{
+        padding: 14px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .main-card a{
+        display: inline;
+        font-size: 15px;
+    }
+
+    /* styling the photo-section */
+
+    .photo-section{
+        background-image:url("https://www.uber-assets.com/image/upload/v1557179373/assets/1e/106eb3-58af-445d-98dd-41403530fd36/original/modalities_3x2.jpg") ;
+        height: 30rem;
+    }
+
+    .photo-section h2{
+        width: 100%;
+        padding: 60px 0 40px 40px;
+        font-size: 34px;
+    }
+
+    .photo-section a{
+        margin-left: 40px;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    /* styling the cards-section */
+
+    .cards-section{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .cards-section h2{
+        padding: 20px 0 30px 20px;
+        font-size: 30px;
+    }
+    
+    .cards-section p{
+        padding: 0px 0 25px 20px;
+    }
+
+    .container{
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+    }
+  
+    .card-body{
+       flex: 50%;
+    }
+
+    .card-body img{
+        max-width: 100%;
+        width: 31.875rem;
+        height: auto;
+    }
+
+    .card-body p{
+        padding: 10px 0 30px 0;
+        line-height: 22px;
+    }  
+
+    .container div:nth-child(3) p{
+        width: 45%;
+    }
+
+    .container div:nth-child(3) img{
+        width: 45%;
+    }
+
+    /* styling the safety-section */
+
+    .safety-section{
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+    
+    .wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .wrapper img{
+        margin-top: 0;
+        max-width: 100%;
+        width: 50rem;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .wrapper h2{
+        padding: 70px 0px 30px 30px;
+        font-size: 28px;
+        line-height: 50px;
+        width: 100%;
+    }
+    
+    .wrapper p{
+        padding: 0px 0px 30px 30px;
+        width: 85%;
+    }
+
+    .wrapper a{
+        display: inline;
+        margin-left: 30px;
+        width: 18.75rem
+    }
+
+      /* styling the cards-section */
+
+    .about-us{
+        width: 100%;
+    }
+
+    .about-us div:nth-child(3) img{
+        width: 25px;
+    }
+
+    /* styling the footer */
+
+    footer{
+        padding: 100px 0 70px 30px;
+    }
+    
+    .footer-head a:first-child{
+        font-size: 20px;
+    }
+    
+    .footer-head a:nth-child(2){
+        font-size: 15px;
+        padding-bottom: 0px;
+        width: 25%;
+    }
+
+    /*--------------*/
+
+    .footer-body{
+        flex-wrap: wrap;
+        padding-top: 70px;
+    }
+    
+    .footer-column{
+        flex: 50%;
+        padding: 20px 0;
+    }
+    
+    .footer-column h4{
+        font-size: 17px;
+    }
+
+    .footer-body li{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    
+    /*--------------*/
+
+    .contact{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .contact-body{
+        flex-direction: column;
+    }
+
+    .contact-column{
+        padding: 10px
+    }
+
+    .social-media{
+        padding-left: 0px;
+    }
+    
+    .address{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .address a{
+        display: block;
+        font-size: 14px;
+    }
+
+    .address a:first-child{
+        width: 130px;
+    }
+
+    .address a:nth-child(2){
+        width: 190px;
+    }
+    
+    .address i{
+        padding: 8px 12px 0 0
+    }
+
+    .contact-app{
+        margin-top: 20px;
+    }
+
+    .contact-app a{
+        padding: 0 10px 10px 0
+    }
+
+    .contact-app img{
+        max-width: 100%;
+        width: 100px;
+        height: auto;
+    }
+
+    .footer-text{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .footer-text ul{
+        margin-top: 45px;
+    }
+
+    .footer-text a{
+        padding: 0 5px 0 0;
+    }
+
+}
+
+
+/* styling between 779px and 1135px */
+
+@media (min-width: 779px) and (max-width: 1135px){
+
+    /* styling the header */
+
+
+    .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7, .nav-item8 a{
+        display: none;
+    }
+
+    .nav-item10{
+        display: block;
+    }
+
+    .left-list{
+        padding-left: 10px;
+    }
+    
+    .right-list{
+        padding-right: 10px;
+    }
+
+    /* styling the main-section */
+
+    .main-section{
+        height: 67rem;
+        background-size: 112.9rem 53.125rem;
+        background-position: right bottom;
+    }
+
+    .main-images{
+        width: 100%;
+        top: 0;
+    }
+
+    .main-images ul{
+        justify-content: flex-start;
+    }
+
+    .main-images li{
+        padding: 14px 25px;
+        font-size: 15px;
+    }
+
+    .main-images img{
+        width: 17px;
+        height: 17px;
+    }
+
+    .main-card{
+        width: 100%;
+        top: 0px;
+        left: 0%;
+        padding: 30px;
+    }
+
+    .main-card h2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    .main-card p{
+        padding: 25px 0;
+        font-size: 16px;
+    }
+
+    .main-card button{
+        padding: 14px;
+        margin-right: 20px;
+        margin-bottom: 130px;
+        font-size: 18px;
+    }
+
+    .main-card a{
+        display: inline;
+        font-size: 15px;
+    }
+
+    /* styling the photo-section */
+
+    .photo-section{
+        background-image:url("https://www.uber-assets.com/image/upload/v1557179373/assets/1e/106eb3-58af-445d-98dd-41403530fd36/original/modalities_3x2.jpg") ;
+        height: 39rem;
+    }
+
+    .photo-section h2{
+        width: 100%;
+        padding: 60px 0 40px 40px;
+        font-size: 30px;
+    }
+
+    .photo-section a{
+        margin-left: 40px;
+        padding: 5px;
+        font-size: 16px;
+        width: 11rem;
+    }
+
+    /* styling the cards-section */
+
+    .cards-section{
+        width: 100%;
+    }
+
+    .cards-section h2{
+        padding: 20px 0 30px 20px;
+        font-size: 35px;
+    }
+    
+    .cards-section p{
+        padding: 0px 0 25px 20px;
+    
+    }
+    .container{
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+    }
+  
+    .card-body{
+       flex: 50%;
+    }
+
+    .card-body img{
+        max-width: 100%;
+        width: 31rem;
+        height: auto;
+    }
+
+    .card-body p{
+        padding: 10px 0 30px 0;
+        line-height: 22px;
+    
+    }  
+
+    .container div:nth-child(3) p{
+        width: 45%;
+    }
+
+    .container div:nth-child(3) img{
+        width: 45%;
+    }
+
+    /* styling the safety-section */
+
+    .safety-section{
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+    
+    .wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .wrapper img{
+        margin-top: 0;
+        max-width: 100%;
+        width: 70rem;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .wrapper h2{
+        padding: 70px 0px 30px 30px;
+        font-size: 28px;
+        line-height: 50px;
+        width: 100%;
+    }
+    
+    .wrapper p{
+        padding: 0px 0px 30px 30px;
+        width: 85%;
+    }
+
+    .wrapper a{
+        display: inline;
+        margin-left: 30px
+    }
+
+    /* styling the cards-section */
+
+    .about-us{
+        width: 100%;
+    }
+
+    .about-us div:nth-child(3) img{
+        width: 25px;
+    }
+
+    /* styling the footer */
+
+    footer{
+        padding: 100px 0 70px 30px;
+    }
+    
+    .footer-head a:first-child{
+        font-size: 20px;
+    }
+    
+    .footer-head a:nth-child(2){
+        font-size: 15px;
+        padding-bottom: 0px;
+        width: 20%;
+    }
+
+    /*--------------*/
+
+    .footer-body{
+        flex-wrap: wrap;
+        padding-top: 70px;
+    }
+    
+    .footer-column{
+        flex: 50%;
+        padding: 25px 0;
+    }
+    
+    .footer-column h4{
+        font-size: 17px;
+    }
+
+    .footer-body li{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    
+    /*--------------*/
+
+    .contact{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-body{
+        flex-direction: column;
+    }
+
+    .contact-column{
+        padding: 10px;
+    }
+
+    .social-media a{
+        padding: 10px;
+    
+    }
+
+    .social-media i{
+        font-size: 16px;
+    }
+    
+    .address{
+        padding-left: 0px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .address a{
+        display: block;
+        font-size: 15px;
+    }
+
+    .address a:first-child{
+        width: 130px;
+    }
+
+    .address a:nth-child(2){
+        width: 190px;
+    }
+    
+    .address i{
+        padding: 8px 10px 0 0
+    }
+
+    .contact-app a{
+        padding: 0 10px 0 0;
+    }
+
+    .footer-text{
+        flex-direction: column;
+        font-size: 13px;
+    }
+    
+    .footer-text ul{
+        margin-top: 50px;
+    }
+
+    .footer-text a{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+  
+}
