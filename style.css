@@ -20,7 +20,7 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    padding: 15px;
+    padding: 1rem;
     align-items: center;
 }
 
@@ -31,24 +31,24 @@ nav ul{
 }
 
 .left-list{
-    padding-left: 60px;
+    padding-left: 3.7rem;
 }
 
 .right-list{
-    padding-right: 70px;
+    padding-right: 4.3rem;
 }
 
 nav li{
     padding: 7px 14px;
     border-radius: 30px;
-    font-size: 15px;  
+    font-size: 1rem;  
 }
 
 nav button{
     background-color: black;
     border: none;
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -60,34 +60,33 @@ nav li:hover button{
     background-color:rgb(54, 52, 52);
 }
 
-.nav-item9{
+.nav-item-sign-up{
     color: black;
     background-color: white;
 }
 
-.nav-item9 button{
+.nav-item-sign-up button{
     color: black;
     background-color: white;
 }
 
-.nav-item9:hover{
-    background-color: rgb(233, 231, 231);
-
-}
-
-.nav-item9:hover button{
+.nav-item-sign-up:hover{
     background-color: rgb(233, 231, 231);
 }
 
-.nav-item1{
-    font-size: 20px;
+.nav-item-sign-up:hover button{
+    background-color: rgb(233, 231, 231);
 }
 
-.nav-item1:hover{
+.nav-item-uber{
+    font-size: 1.25rem;
+}
+
+.nav-item-uber:hover{
     background-color: black;
 }
 
-.nav-item10{
+.nav-item-bars{
     display: none;
 }
 
@@ -98,10 +97,14 @@ nav li i{
 /* styling the main-section */
 
 .main-section{
-    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_2398,h_1520/v1578357180/assets/69/908bc0-7167-40d0-b046-af52170801f5/original/Product-Masthead-Desktop_2.jpg");
-    width: 100%;
-    height: 48.75rem;
-    background-size: 100% 100%;
+   background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_2398,h_1520/v1578357180/assets/69/908bc0-7167-40d0-b046-af52170801f5/original/Product-Masthead-Desktop_2.jpg");
+   width: 100%;
+   height: 780px;
+   background-size: 100% 100%;
+}
+
+.main-section .background-image{
+    display: none;
 }
 
 .main-images{
@@ -129,7 +132,7 @@ nav li i{
     padding: 10px 0px;
     text-align: center;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .main-images li:hover a{
@@ -150,26 +153,26 @@ nav li i{
     left: 10%;
     border-top: 1px solid rgb(235, 231, 231);
     background-color: white;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .main-card h2{
-    font-size: 55px;
+    font-size: 3.4rem;
     font-weight: 400;
 }
 
 .main-card p{
     padding: 25px 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
 }
 
 .main-card button{
     color: white;
     background-color: black;
-    padding: 16px;
+    padding: 1rem;
     border:none;
-    font-size: 20px;
+    font-size: 1.25rem;;
     cursor: pointer;
 }
 
@@ -183,7 +186,7 @@ nav li i{
     padding: 15px 0;
     cursor: pointer;
     font-size: 18px;
-    width: 67%;
+    width: 330px;
     text-decoration: none;
     background-image: linear-gradient( transparent calc(100% - 1px), #000000 1px ), linear-gradient( transparent calc(100% - 1px), #CBCBCB 1px );
     background-size: 0% 9px, 100% 6px;
@@ -197,29 +200,28 @@ nav li i{
     transition: all .5s linear;
 }
 
-
 /* styling the photo-section */
 
 .photo-section{
     background-image:url("https://www.uber-assets.com/image/upload/v1556927537/assets/e4/ade93c-0b7b-4990-bda4-afef96793277/original/Modalities_banner_home.jpg") ;
     width: 100%;
-    height: 41.875rem;
+    height: 670px;
     background-size: 100% 100%;
 }
 
 .photo-section h2{
     width: 40%;
     padding: 100px 0 40px 140px;
-    line-height: 40px;
-    font-size: 35px;
+    line-height: 2.5rem;
+    font-size: 2.18rem;
     font-weight: 500;
     color:rgb(54, 52, 52);
 }
 
 .photo-section a{
-    margin-left: 140px;
+    margin-left: 8.75rem;
     padding: 5px;
-    width: 12rem
+    width: 192px
 }
 
 /* styling the cards-section */
@@ -227,7 +229,7 @@ nav li i{
 .cards-section{
     margin: auto;
     width: 80%;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .cards-section h2{
@@ -252,8 +254,8 @@ nav li i{
 
 .card-body img{
     max-width: 100%;
-    width: 22rem;
-    height: 16rem;
+    width: 352px;
+    height: 256px;
 }
 
 .card-body h3{
@@ -271,7 +273,7 @@ nav li i{
 .card-body a{
     padding: 5px;
     font-size: 16px;
-    width: 7.8rem;
+    width: 125px;
 }
 
 /* styling the safety-section */
@@ -292,7 +294,7 @@ nav li i{
     padding: 70px 50px 30px 0px;
     font-size: 35px;
     line-height: 50px;
-    width: 25rem;
+    width: 400px;
 }
 
 .wrapper p{
@@ -303,18 +305,18 @@ nav li i{
 
 .wrapper a{
     font-size: 16px;
-    width: 18.2rem;
+    width: 291px;
 }
 
 .wrapper a:nth-child(4){
-    width: 14.8rem;
+    width: 236px
 }
 
 .wrapper img{
     display: block;
-    width: 31.25rem;
+    width: 500px;
     height: auto;
-    margin-top: 9.375rem;
+    margin-top: 150px;
 }
 
 /* styling the cards-section */
@@ -324,7 +326,7 @@ nav li i{
 }
 
 .card-body .card-img{
-    width:25px;
+    width: 25px;
     height: 25px;
 }
 
@@ -447,7 +449,7 @@ footer a{
 }
 
 .contact-app img{
-    width: 8rem;
+    width: 128px;
     height: 100%;
     display: block;
 }
@@ -488,11 +490,11 @@ footer a{
 
      /* styling the header */
 
-     .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7, .nav-item8 a{
+     .nav-item, .nav-item-sign-in a{
         display: none;
     }
 
-    .nav-item10{
+    .nav-item-bars{
         display: block;
     }
 
@@ -507,9 +509,16 @@ footer a{
      /* styling the main-section */
 
      .main-section{
-        height: 50rem;
-        background-size: 62.5rem 31.25rem;
-        background-position: right bottom;
+        height: 800px;
+        background-image: none;
+    }
+
+    .main-section .background-image{
+        display: block;
+        height: 350px;
+        background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1878,h_1056/v1578354397/assets/98/0c0181-ad2e-40bf-ab1e-37776b4d3aed/original/Product-Masthead-Tablet.jpg");
+        background-position: center;
+        background-size: cover; 
     }
 
     .main-images{
@@ -519,7 +528,7 @@ footer a{
     }
 
     .main-images::-webkit-scrollbar{
-        /* to hide the scrolbar */
+        /* to hide the scrollbar */
 
         display: none;
       }
@@ -569,7 +578,7 @@ footer a{
 
     .main-card a{
         display: block;
-        width: 16.875rem;
+        width: 270px;
         font-size: 15px;
         margin-bottom: 40px;
     }
@@ -578,7 +587,7 @@ footer a{
 
     .photo-section{
         background-image:url("https://www.uber-assets.com/image/upload/v1557179373/assets/1e/106eb3-58af-445d-98dd-41403530fd36/original/modalities_3x2.jpg") ;
-        height: 33rem;
+        height: 528px;
         background-size: cover;
         background-position: center;
     }
@@ -594,8 +603,10 @@ footer a{
         margin-left: 30px;
         padding: 5px;
         font-size: 16px;
-        width: 10.8rem;
+        width: 172px;
+        
     }
+    
 
     /* styling the cards-section */
 
@@ -669,11 +680,11 @@ footer a{
     .wrapper a{
         display: block;
         margin-left: 30px;
-        width: 18.75rem;
+        width: 300px;
     }
 
     .wrapper a:nth-child(4){
-        width: 15rem;
+        width: 240px;
     }
 
     /* styling the footer */
@@ -689,7 +700,7 @@ footer a{
     .footer-head a:nth-child(2){
         font-size: 15px;
         padding-bottom: 0px;
-        width: 9rem;
+        width: 144px;
     }
 
      /*--------------*/
@@ -791,11 +802,11 @@ footer a{
 
     /* styling the header */
 
-    .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7, .nav-item8 a{
+    .nav-item, .nav-item-sign-in a{
         display: none;
     }
 
-    .nav-item10{
+    .nav-item-bars{
         display: block;
     }
 
@@ -810,9 +821,16 @@ footer a{
     /* styling the main-section */
 
     .main-section{
-        height: 50rem;
-        background-size: 62.5rem 31.25rem;
-        background-position: right bottom;
+        height: 800px;
+        background-image: none;
+    }
+
+    .main-section .background-image{
+        display: block;
+        height: 400px;
+        background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1878,h_1056/v1578354397/assets/98/0c0181-ad2e-40bf-ab1e-37776b4d3aed/original/Product-Masthead-Tablet.jpg");
+        background-position: center;
+        background-size: cover; 
     }
 
     .main-images{
@@ -822,7 +840,7 @@ footer a{
     }
 
     .main-images::-webkit-scrollbar{
-        /* to hide the scrolbar */
+        /* to hide the scrollbar */
 
         display: none;
       }
@@ -860,7 +878,7 @@ footer a{
     
     .main-card p{
         padding: 25px 0;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .main-card button{
@@ -879,7 +897,7 @@ footer a{
 
     .photo-section{
         background-image:url("https://www.uber-assets.com/image/upload/v1557179373/assets/1e/106eb3-58af-445d-98dd-41403530fd36/original/modalities_3x2.jpg") ;
-        height: 30rem;
+        height: 480px;
     }
 
     .photo-section h2{
@@ -891,8 +909,8 @@ footer a{
     .photo-section a{
         margin-left: 40px;
         padding: 5px;
-        font-size: 16px;
-        width: 10.7rem;
+        font-size: 1rem;
+        width: 172px;
     }
 
     /* styling the cards-section */
@@ -923,7 +941,7 @@ footer a{
 
     .card-body img{
         max-width: 100%;
-        width: 31.875rem;
+        width: 510px;
         height: auto;
     }
 
@@ -955,7 +973,7 @@ footer a{
     .wrapper img{
         margin-top: 0;
         max-width: 100%;
-        width: 50rem;
+        width: 800px;
         height: auto;
         padding: 0 10px;
     }
@@ -975,7 +993,7 @@ footer a{
     .wrapper a{
         display: inline;
         margin-left: 30px;
-        width: 18.75rem
+        width: 300px;
     }
 
       /* styling the cards-section */
@@ -1001,7 +1019,7 @@ footer a{
     .footer-head a:nth-child(2){
         font-size: 15px;
         padding-bottom: 0px;
-        width: 25%;
+        width: 145px;
     }
 
     /*--------------*/
@@ -1104,11 +1122,11 @@ footer a{
     /* styling the header */
 
 
-    .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7, .nav-item8 a{
+    .nav-item, .nav-item-sign-in a{
         display: none;
     }
 
-    .nav-item10{
+    .nav-item-bars{
         display: block;
     }
 
@@ -1123,14 +1141,22 @@ footer a{
     /* styling the main-section */
 
     .main-section{
-        height: 67rem;
-        background-size: 112.9rem 53.125rem;
-        background-position: right bottom;
+        height: 1072px;
+        height: auto;
+        background-image: none;
     }
 
     .main-images{
         width: 100%;
         top: 0;
+    }
+
+    .main-section .background-image{
+        display: block;
+        height: 600px;
+        background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1878,h_1056/v1578354397/assets/98/0c0181-ad2e-40bf-ab1e-37776b4d3aed/original/Product-Masthead-Tablet.jpg");
+        background-position: center;
+        background-size: cover; 
     }
 
     .main-images ul{
@@ -1193,7 +1219,7 @@ footer a{
         margin-left: 40px;
         padding: 5px;
         font-size: 16px;
-        width: 10.7rem;
+        width: 172px;
     }
 
     /* styling the cards-section */
@@ -1204,7 +1230,7 @@ footer a{
 
     .cards-section h2{
         padding: 20px 0 30px 20px;
-        font-size: 35px;
+        font-size: 2.18rem;
     }
     
     .cards-section p{
@@ -1223,7 +1249,7 @@ footer a{
 
     .card-body img{
         max-width: 100%;
-        width: 31rem;
+        width: 500px;
         height: auto;
     }
 
@@ -1256,7 +1282,7 @@ footer a{
     .wrapper img{
         margin-top: 0;
         max-width: 100%;
-        width: 70rem;
+        width: 1120px;
         height: auto;
         padding: 0 10px;
     }
@@ -1301,7 +1327,7 @@ footer a{
     .footer-head a:nth-child(2){
         font-size: 15px;
         padding-bottom: 0px;
-        width: 20%;
+        width: 145px;
     }
 
     /*--------------*/
