@@ -98,9 +98,10 @@ nav li i{
 
 .main-section{
    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_2398,h_1520/v1578357180/assets/69/908bc0-7167-40d0-b046-af52170801f5/original/Product-Masthead-Desktop_2.jpg");
-   width: 100%;
-   height: 780px;
-   background-size: 100% 100%;
+   height: 820px;
+   background-size: cover;
+   background-position: center;
+   
 }
 
 .main-section .background-image{
