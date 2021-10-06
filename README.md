@@ -1,3 +1,3 @@
 # Uber-clone
 
-https://ranaalkhoudari.github.io/Uber-clone/
+[DEMO](https://ranaalkhoudari.github.io/Uber-clone/)
